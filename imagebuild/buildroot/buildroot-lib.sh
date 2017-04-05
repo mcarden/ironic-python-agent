@@ -20,7 +20,7 @@ export BR2_EXTERNAL="${BR2_IPA_REPO}/buildroot-ipa"
 # shellcheck disable=SC2034
 COMMON_PACKAGES="bash bc bzr git rsync texinfo wget unzip"
 # shellcheck disable=SC2034
-APT_PACKAGES="${COMMON_PACKAGES} build-essential libncurses5-dev libc6:i386"
+APT_PACKAGES="${COMMON_PACKAGES} build-essential libncurses5-dev libc6-i386"
 # shellcheck disable=SC2034
 YUM_PACKAGES="${COMMON_PACKAGES} binutils bison bzip2 cmake cpio \
 	flex gcc gcc-c++ glibc-devel.i686 gzip make ncurses-devel patch perl \
